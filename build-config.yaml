@@ -23,7 +23,7 @@ spec:
     dockerStrategy:
       from:
         kind: ImageStreamTag
-        name: rhel7-jmeter3:latest
+        name: mhart/alpine-node:base-8
         namespace: openshift
     type: Docker
   triggers:
