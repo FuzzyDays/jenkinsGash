@@ -24,7 +24,7 @@ spec:
       from:
         kind: ImageStreamTag
         name: rhel7-jmeter3:latest
-        namespace: openshift
+        namespace: pete-dev
     type: Docker
   triggers:
   - github:
